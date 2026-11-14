@@ -11,8 +11,9 @@
     "solidhat:clean": "solidhat clean"
   },
   "devDependencies": {
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.12",
     "@solidcash/solidhat": "^0.50.0",
-    "vitest": "^5.0.4",
-    "typescript": "^5.9.2"
+    "typescript": "^5.9.2",
+    "vitest": "^5.0.4"
   }
 }

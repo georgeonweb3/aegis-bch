@@ -5,6 +5,7 @@ declare module '@solidcash/testing/hre' {
   interface SolidcashArtifactMap {
     'AegisBCH': typeof import('../artifacts/solidcash/AegisBCH.artifact.js').default;
     'FoldingPool': typeof import('../artifacts/solidcash/FoldingPool.artifact.js').default;
+    'HashWriteProbe': typeof import('../artifacts/solidcash/HashWriteProbe.artifact.js').default;
   }
 }
 
