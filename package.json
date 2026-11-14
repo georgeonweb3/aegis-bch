@@ -1,0 +1,18 @@
+{
+  "name": "aegis-bch",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "solidhat:compile": "solidhat compile",
+    "solidhat:typegen": "solidhat typegen",
+    "solidhat:test": "solidhat test",
+    "solidhat:deploy": "solidhat deploy",
+    "solidhat:clean": "solidhat clean"
+  },
+  "devDependencies": {
+    "@solidcash/solidhat": "^0.50.0",
+    "vitest": "^5.0.4",
+    "typescript": "^5.9.2"
+  }
+}
